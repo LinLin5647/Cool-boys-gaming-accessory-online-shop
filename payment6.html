@@ -119,25 +119,25 @@ body{
 </head>
 <body>
 <div class="contanier">
-<h1 style="color: whitesmoke;">Confirm Your Payment</h1>
+<h1 style="color: cyan;">Confirm Your Payment</h1>
 <div class="first-row">
 <div class="owner">
-<h3 style="color: whitesmoke;">Adress</h3>
+<h3 style="color: cyan;">Card Number</h3>
 <div class="input-field">
 <input type="text">
 </div>
 </div>
 <div class="cvv">
-<h3 style="color: whitesmoke;">country</h3>
+<h3 style="color: cyan;">password</h3>
 <div class="input-field">
-<input type="text">
+<input type="password">
 </div>
 </div>
 </div>
 <br>
 <div class="second-row">
 <div class="card-number">
-<h3 style="color: whitesmoke;">Card Number</h3>
+<h3 style="color: cyan;">Adress</h3>
 <div class="input-field">
 <input type="text">
 </div>
@@ -145,7 +145,7 @@ body{
 </div>
 <br>
 <div class="third-row">
-<h3 style="color: whitesmoke;">Date</h3>
+<h3 style="color:cyan;">Date</h3>
 <div class="selection">
 <div class="date">
 <select name="months" id="months">
@@ -174,15 +174,18 @@ body{
 </select>
 </div>
 <div style="margin-left: 20px;" class="cards">
-<img src="vi.png" alt="">
-<img src="pp.png" alt="">
-<img src="mc.png" alt="">
+<input type="radio" name="rb" id="rb1">
+<label for="rb1"><img src="vi.png"></label>
+<input type="radio" name="rb" id="rb2">
+<label for="rb1"><img src="pp.png"></label>
+<input type="radio" name="rb" id="rb3">
+<label for="rb1"><img src="mc.png"></label><br><br>
 </div>
 </div>
 <br>
 </div>
 <input class="confirm" type="submit" value="Confirm" onclick="alert('YOUR PURCHASE SUCCESS!')">
-<a href="keyboard.html">
+<a href="Keyboard.html">
 <input class="confirm2" type="button" value="go back to page">
 </a>
 </div>
